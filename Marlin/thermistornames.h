@@ -65,6 +65,10 @@
   #define THERMISTOR_NAME "Makers Tool"
 #elif THERMISTOR_ID == 70
   #define THERMISTOR_NAME "Hephestos 2"
+#elif THERMISTOR_ID == 72
+  #define THERMISTOR_NAME "Vector 3 Hotend"
+#elif THERMISTOR_ID == 73
+  #define THERMISTOR_NAME "Vector 3 Bed"
 #elif THERMISTOR_ID == 75
   #define THERMISTOR_NAME "MGB18"
 
