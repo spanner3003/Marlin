@@ -103,6 +103,12 @@
 #if ANY_THERMISTOR_IS(70) // bqh2 stock thermistor
   #include "thermistortable_70.h"
 #endif
+#if ANY_THERMISTOR_IS(72) // Vector 3 Main Thermistor
+  #include "thermistortable_72.h"
+#endif
+#if ANY_THERMISTOR_IS(73) // Vector 3 Bed Thermistor
+  #include "thermistortable_73.h"
+#endif
 #if ANY_THERMISTOR_IS(75) // Many of the generic silicon heat pads use the MGB18-104F39050L32 Thermistor
   #include "thermistortable_75.h"
 #endif
